@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Batch files must keep Windows line endings or cmd.exe can misread them
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary art files
+*.psd binary
+*.ico binary

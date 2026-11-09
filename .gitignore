@@ -1,0 +1,18 @@
+# Build output (rebuild with build.bat)
+bin/
+obj/
+build/
+
+# Store/marketing art (kept local, not in the repo)
+ad/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Windows
+Thumbs.db
+desktop.ini

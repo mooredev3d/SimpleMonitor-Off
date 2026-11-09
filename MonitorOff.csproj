@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>SimpleMonitorOff</AssemblyName>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationIcon>MonitorOff.ico</ApplicationIcon>
+
+    <!-- Shown in the About window and in the .exe's Properties → Details -->
+    <Version>1.0</Version>
+    <Product>Simple Monitor Off</Product>
+    <AssemblyTitle>Simple Monitor Off</AssemblyTitle>
+    <Company>Patchs</Company>
+    <Authors>Patchs</Authors>
+    <Copyright>© Patchs</Copyright>
+  </PropertyGroup>
+
+  <!-- Publish settings: one MonitorOff.exe, written to the "build" folder next to this file -->
+  <PropertyGroup>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishDir>$(MSBuildProjectDirectory)\build\</PublishDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Draws the QR code for connecting a phone -->
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+  </ItemGroup>
+
+</Project>
