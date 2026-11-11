@@ -1,6 +1,6 @@
 # Simple Monitor Off
 
-Simple Monitor Off is a small tray app for Windows. Left-click its icon next to the clock and every display goes dark. Nothing is closed, so music, downloads and renders keep running. You choose what wakes the screens, and any other input is blocked while they're off, so a bumped desk or a cat on the keyboard won't wake them.
+Simple Monitor Off is a small tray app for Windows to turn off your monitors. Left-click its icon next to the clock and every display goes dark. Nothing is closed, so music, downloads and renders keep running. You choose what wakes the screens, and any other input is blocked while they're off, so a bumped desk or a cat on the keyboard won't wake them.
 
 ## Features
 
